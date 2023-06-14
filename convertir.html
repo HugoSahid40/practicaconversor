@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dolares</title>
+
+    <link rel="stylesheet" href="./css/convertir.css">
+
+    
+</head>
+
+<body>
+           
+    <main>
+        <h1>Convertir de pesos a dolares</h1><br>
+        <h2>Valor del dolar=17.23</h2><br>
+        <form id="botones">
+            <input type="number" style="width:220px;height:30px" id="pesos" placeholder="Ingrese el monto de $$" required ><br><br>
+            <button type="button" onclick="calcular()">Convertir</button>
+            
+            <button type="button" onclick="limpiar();"> Borrar</button> 
+
+            <div>
+                <h4>Dolares:</h4>            
+                <input type="text" id="total" placeholder= "Total: U$s "> 
+            </div >
+        </form>
+
+    </main>
+
+        <!--llamado a Javascript-->
+    <script src="./js/convertir.js"></script>
+    
+</body>
+</html>
